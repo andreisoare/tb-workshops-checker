@@ -1,1 +1,1 @@
-# tb-workshops-checker
+# Talentbuddy Checker
