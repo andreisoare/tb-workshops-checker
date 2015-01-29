@@ -1,4 +1,4 @@
-// Copyright 2015 Sunnytrail Insight Labs Inc. All rights reserved.
+#!/usr/bin/env node
 
 var cli = require('cli')
   , async = require('async')
