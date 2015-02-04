@@ -21,5 +21,3 @@ async.series(
       cli.exit()
   }
 )
-
-module.exports = "Got it!"
