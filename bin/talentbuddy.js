@@ -19,5 +19,5 @@ async.series(
         error.printError(err, cli)
       }
       cli.exit()
-  }
+    }
 )
