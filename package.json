@@ -1,10 +1,14 @@
 {
   "name": "talentbuddy",
-  "version": "0.0.1",
-  "description": "Talentbuddy Workshops Checker",
+  "version": "0.0.2",
+  "description": "Talentbuddy Workshops",
   "preferGlobal": true,
   "bin": {
     "talentbuddy": "bin/talentbuddy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Talentbuddy"
   },
   "dependencies": {
     "cli": "~0.6.5",
@@ -17,6 +21,18 @@
     "nexpect": "~0.4.2",
     "analytics-node": "~1.1.1"
   },
+  "bugs": {
+    "url": "https://github.com/Talentbuddy/talentbuddy/issues"
+  },
+  "main": "bin/talentbuddy.js",
   "devDependencies": {},
-  "private": true
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "talentbuddy",
+    "coding"
+  ],
+  "author": "Talentbuddy <team@talentbuddy.co> (https://www.talentbuddy.co/workshops)",
+  "license": "GNU GPL v3.0"
 }
