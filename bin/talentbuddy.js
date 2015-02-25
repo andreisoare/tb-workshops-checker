@@ -17,6 +17,9 @@ async.series(
   , function(err) {
       if (err) {
         error.printError(err, cli)
+        if (cli.options.debug) {
+          console.log(err)
+        }
       }
       cli.exit()
     }
