@@ -1,6 +1,6 @@
 {
   "name": "talentbuddy",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "Talentbuddy Workshops",
   "preferGlobal": true,
   "bin": {
